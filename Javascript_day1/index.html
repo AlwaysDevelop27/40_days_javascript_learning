@@ -3,14 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Day 1 JavaScript</title>
-    <script src="script.js"></script>
+    <title>Day 1 JavaScript - Script in Head with Async</title>
+    <script async src="script.js"></script>
 </head>
 <body>
     <h1>Hello, JavaScript!</h1>
-    <div id ="someId">
-
-    </div>
-    
+    <div id="someId"></div>
+    <p>This HTML loads the script in the <head> with async. The script downloads in parallel and executes as soon as it's ready, potentially before the document is fully parsed.</p>
 </body>
 </html>
